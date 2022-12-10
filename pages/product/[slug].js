@@ -17,8 +17,6 @@ const ProductDetails = ({ product, products }) => {
 
   return (
     <div>
-      {console.log(product)}
-      {console.log(products)}
       <div className="product-detail-container">
         <div>
           <div className="image-container">
