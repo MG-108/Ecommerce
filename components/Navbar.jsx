@@ -19,7 +19,6 @@ const Navbar = () => {
       </button>
 
       {/* showCart default is false */}
-      {/* showCart true ? show Cart component otherwise null */}
       {showCart ? <Cart /> : null}
     </div>
   );
